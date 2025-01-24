@@ -39,18 +39,24 @@
      - 整个 episode 的 states, actions, next_states, rewards, done 都会被记录下来, 送给 agent.update()。 ppo 的算法就在 update 里面
     
 - update 函数 (ppo 角度解释)
-  - 
-
-
+  - 计算 td_target  
+    - td_target: 当前的 value == 每个动作的 reward + gamma * critic(next_value)
+    - 每个 action 都对应一个 state, action, value
+  - 计算 td_delta (也就是 advantage)
+    - td_delta: value 评估之差 == td_target - critic(current_state)
   
+  - 计算 ratio
+
 
 
 一些问题:
 - 设置不同的种子收敛速度会不一样么?
-
+- 经过训练之后 value 会长什么样子?
+- 开环情况下, 每一个点的 reward 应该如何计算?
 - 如何利用同一条数据进行多次训练?
 - 500 个 episodes 之间 LR 是如何管理的呢？ 会上升或者下降么?
 - next_states 在 dppo 里面是当前 state + action 构成的
 - 为什么是梯度上升?
-
-
+- 策略梯度, Actor-Critic, TRPO, PPO 看起来像是这一个改进流程
+- GMM 的方法呢? 通过其他方案定义?
+- Gussian Distribution?
