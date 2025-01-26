@@ -1,0 +1,14 @@
+policy_gradient_wx.py:154: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:278.)
+  state = torch.tensor(state_list, dtype=torch.float).to(device)
+Traceback (most recent call last):
+  File "policy_gradient_wx.py", line 155, in <module>
+    action = pg.take_action(state)
+  File "policy_gradient_wx.py", line 57, in take_action
+    state = torch.tensor(state, dtype=torch.float).to(self.device)
+ValueError: only one element tensors can be converted to Python scalars
+Traceback (most recent call last):
+  File "policy_gradient_wx.py", line 155, in <module>
+    action = pg.take_action(state)
+  File "policy_gradient_wx.py", line 57, in take_action
+    state = torch.tensor(state, dtype=torch.float).to(self.device)
+ValueError: only one element tensors can be converted to Python scalars

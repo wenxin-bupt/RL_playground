@@ -1,0 +1,10 @@
+{"time":"2025-01-26T23:01:27.631028153+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/hdd/proj/12_12_2024_ppo/Hands-on-RL/wandb/run-20250126_230127-kmnrvq8j/logs/debug-core.log"}
+{"time":"2025-01-26T23:01:27.741145725+08:00","level":"INFO","msg":"created new stream","id":"kmnrvq8j"}
+{"time":"2025-01-26T23:01:27.741198279+08:00","level":"INFO","msg":"stream: started","id":"kmnrvq8j"}
+{"time":"2025-01-26T23:01:27.741258588+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"kmnrvq8j"}
+{"time":"2025-01-26T23:01:27.741269114+08:00","level":"INFO","msg":"handler: started","stream_id":"kmnrvq8j"}
+{"time":"2025-01-26T23:01:27.741347638+08:00","level":"INFO","msg":"sender: started","stream_id":"kmnrvq8j"}
+{"time":"2025-01-26T23:01:29.392660969+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-26T23:01:46.841178979+08:00","level":"INFO","msg":"stream: closing","id":"kmnrvq8j"}
+{"time":"2025-01-26T23:01:46.841217602+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-26T23:01:46.842117022+08:00","level":"INFO","msg":"Stopped system monitor"}

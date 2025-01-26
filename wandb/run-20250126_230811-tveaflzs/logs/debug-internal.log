@@ -1,0 +1,10 @@
+{"time":"2025-01-26T23:08:11.872582295+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/hdd/proj/12_12_2024_ppo/Hands-on-RL/wandb/run-20250126_230811-tveaflzs/logs/debug-core.log"}
+{"time":"2025-01-26T23:08:11.984815888+08:00","level":"INFO","msg":"created new stream","id":"tveaflzs"}
+{"time":"2025-01-26T23:08:11.984889039+08:00","level":"INFO","msg":"stream: started","id":"tveaflzs"}
+{"time":"2025-01-26T23:08:11.984940922+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"tveaflzs"}
+{"time":"2025-01-26T23:08:11.985013627+08:00","level":"INFO","msg":"handler: started","stream_id":"tveaflzs"}
+{"time":"2025-01-26T23:08:11.985039526+08:00","level":"INFO","msg":"sender: started","stream_id":"tveaflzs"}
+{"time":"2025-01-26T23:08:12.470704632+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-26T23:20:22.268401763+08:00","level":"INFO","msg":"stream: closing","id":"tveaflzs"}
+{"time":"2025-01-26T23:20:22.26844514+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-26T23:20:22.269306835+08:00","level":"INFO","msg":"Stopped system monitor"}

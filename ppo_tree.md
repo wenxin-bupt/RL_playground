@@ -46,8 +46,7 @@
     - td_delta: value 评估之差 == td_target - critic(current_state)
   
   - 计算 ratio
-
-
+  
 
 一些问题:
 - 设置不同的种子收敛速度会不一样么?

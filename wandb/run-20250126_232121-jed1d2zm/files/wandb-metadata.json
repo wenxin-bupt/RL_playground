@@ -1,0 +1,41 @@
+{
+  "os": "Linux-5.15.0-125-generic-x86_64-with-glibc2.29",
+  "python": "CPython 3.8.10",
+  "startedAt": "2025-01-26T15:21:21.735520Z",
+  "program": "policy_gradient_wx.py",
+  "codePath": "policy_gradient_wx.py",
+  "git": {
+    "remote": "git@github.com:boyu-ai/Hands-on-RL.git",
+    "commit": "e4c2563cd7f22bdab8105a35c440ea8202318962"
+  },
+  "email": "wx@whensean.com",
+  "root": "/hdd/proj/12_12_2024_ppo/Hands-on-RL",
+  "host": "PC-4CE313BY",
+  "executable": "/usr/bin/python3",
+  "codePathLocal": "policy_gradient_wx.py",
+  "cpu_count": 12,
+  "cpu_count_logical": 24,
+  "gpu": "NVIDIA GeForce RTX 3080",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "502392610816",
+      "used": "364060377088"
+    }
+  },
+  "memory": {
+    "total": "67129581568"
+  },
+  "cpu": {
+    "count": 12,
+    "countLogical": 24
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3080",
+      "memoryTotal": "10501554176",
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "11.4"
+}

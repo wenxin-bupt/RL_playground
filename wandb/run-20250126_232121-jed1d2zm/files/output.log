@@ -1,0 +1,39 @@
+policy_gradient_wx.py:163: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:278.)
+  state = torch.tensor(state_list, dtype=torch.float).to(device)
+/home/lixiang/.local/lib/python3.8/site-packages/gym/logger.py:30: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned done = True. You should always call 'reset()' once you receive 'done = True' -- any further steps are undefined behavior.[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+policy_gradient_wx.py:105: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  action = torch.tensor(transition_dict['actions']).view(-1, 1).to(self.device)
+Episode 0: Loss 156.57288107881323 dones_mean 19.5234375
+/home/lixiang/.local/lib/python3.8/site-packages/gym/logger.py:30: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned done = True. You should always call 'reset()' once you receive 'done = True' -- any further steps are undefined behavior.[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+Episode 1: Loss 167.70224152505398 dones_mean 20.5625
+Episode 2: Loss 176.12286053411663 dones_mean 21.5625
+Episode 3: Loss 159.4737562420778 dones_mean 20.09375
+Episode 4: Loss 146.889684246853 dones_mean 19.296875
+Episode 5: Loss 128.96661499608308 dones_mean 17.6015625
+Episode 6: Loss 136.35198202496395 dones_mean 18.171875
+Episode 7: Loss 146.0406802725047 dones_mean 19.171875
+Episode 8: Loss 161.86080970801413 dones_mean 20.1953125
+Episode 9: Loss 127.60963538149372 dones_mean 21.9921875
+Episode 10: Loss 126.96033044438809 dones_mean 20.4609375
+Episode 11: Loss 130.55121702095494 dones_mean 20.8125
+Episode 12: Loss 147.27976860571653 dones_mean 22.09375
+Episode 13: Loss 148.8885865821503 dones_mean 21.3359375
+Episode 14: Loss 141.0548398103565 dones_mean 21.0859375
+Episode 15: Loss 119.24065874703228 dones_mean 19.75
+Episode 16: Loss 148.631478223484 dones_mean 20.234375
+Episode 17: Loss 157.86062991572544 dones_mean 22.1953125
+Episode 18: Loss 118.19943960104138 dones_mean 21.0
+Episode 19: Loss 55.00391401676461 dones_mean 20.375
+Episode 20: Loss 124.60744769871235 dones_mean 20.6875
+Episode 21: Loss 105.73358817305416 dones_mean 22.5546875
+Episode 22: Loss 82.67751535726711 dones_mean 19.8984375
+Episode 23: Loss 111.9192011943087 dones_mean 20.484375
+Episode 24: Loss 126.59317458793521 dones_mean 20.328125
+Episode 25: Loss 146.799080488272 dones_mean 21.015625
+Episode 26: Loss 152.0040107355453 dones_mean 22.015625
+Episode 27: Loss 115.32970482856035 dones_mean 20.328125
+Episode 28: Loss 153.7259557354264 dones_mean 21.328125
+Episode 29: Loss 140.20515257213265 dones_mean 21.6484375
+Episode 30: Loss 144.13943981938064 dones_mean 20.5390625
